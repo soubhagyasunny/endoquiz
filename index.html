@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endocrine Physiology Game</title>
+ <link rel="stylesheet" href="styles.css">
+
+    <script src="questions.js" defer></script>
+<script src="scripts.js" defer></script> </head>
+<body>
+
+    <h1>Endocrine Physiology Game</h1>
+    
+    <div id="controls">
+        <div id="timer-box">⏱️ <span id="timer">00:00</span></div>
+        <button class="control-btn" onclick="startTurn()">Roll Dice & Answer</button>
+        <br>
+        <button id="review-btn" class="control-btn secondary-btn" onclick="showRevision()" style="display: none;">
+        Review Mistakes
+    </button>
+
+        <p id="status">Start at Square 1. Click to play!</p>
+    </div>
+
+    <div id="board">
+        </div>
+
+    <div id="quiz-modal" class="modal">
+        <div class="modal-content">
+            <h3 id="question-text">Question loading...</h3>
+            <div id="options-container"></div>
+        </div>
+    </div>
+
+    <div id="leaderboard-modal" class="modal">
+        <div class="modal-content" style="text-align: center;">
+            <h2 id="lb-title">🏆 Leaderboard</h2>
+            
+         
+
+            <div style="max-height: 300px; overflow-y: auto;">
+                <table id="leaderboard-table">
+                    <thead><tr><th>Rank</th><th>Name</th><th>Time</th></tr></thead>
+                    <tbody id="lb-body"><tr><td colspan="3">Loading...</td></tr></tbody>
+                </table>
+            </div>
+            <br>
+            <button class="control-btn secondary-btn" onclick="closeLeaderboard()">Close</button>
+        </div>
+    </div>
+
+<div id="win-modal" class="modal" style="display: none;">
+    <div class="modal-content" style="text-align: center;">
+        <h2>🎉 CONGRATULATIONS! 🎉</h2>
+        <p>You finished the game in:</p>
+        <h3 id="win-time-display" style="color: #2e7d32; font-size: 24px;">00:00</h3>
+        
+        <p>Enter your name:</p>
+        <input type="text" id="win-name-input" placeholder="Your Name" maxlength="15" style="padding: 10px; font-size: 16px;">
+        <br><br> 
+        
+        <button class="control-btn" onclick="submitAndClose()">Submit</button>
+        <br>
+        <button class="control-btn secondary-btn" onclick="closeWinModal()">Skip</button>
+    </div>
+</div>
+</body>
+</html>
