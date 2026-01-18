@@ -114,12 +114,12 @@
   },
   {
     q: "Somatostatin is also known as:",
-    options: ["Growth Hormone-Releasing Hormone", "Growth Hormone Release-Inhibiting Hormone (GRIH)", "Prolactin Inhibiting Hormone", "Gonadotropin Releasing Hormone"],
+    options: ["Growth Hormone-Releasing Hormone", "Growth Hormone Release-Inhibiting Hormone", "Prolactin Inhibiting Hormone", "Gonadotropin Releasing Hormone"],
     correct: 1
   },
   {
     q: "Dopamine functions as:",
-    options: ["Prolactin Releasing Hormone", "Prolactin Inhibiting Hormone (PIH)", "Thyrotropin Releasing Hormone", "Corticotropin Releasing Hormone"],
+    options: ["Prolactin Releasing Hormone", "Prolactin Inhibiting Hormone", "Thyrotropin Releasing Hormone", "Corticotropin Releasing Hormone"],
     correct: 1
   },
   {
@@ -169,7 +169,7 @@
   },
   {
     q: "The majority of circulating GH is bound to:",
-    options: ["Albumin", "GH-binding protein (GHBP)", "Transcortin", "SHBG"],
+    options: ["Albumin", "GH-binding protein", "Transcortin", "SHBG"],
     correct: 1
   },
   {
@@ -179,12 +179,12 @@
   },
   {
     q: "GH stimulates the liver to produce:",
-    options: ["Somatostatin", "Somatomedins (IGFs)", "GHRH", "Insulin"],
+    options: ["Somatostatin", "Somatomedins", "GHRH", "Insulin"],
     correct: 1
   },
   {
     q: "Which Somatomedin is primarily responsible for skeletal growth after birth?",
-    options: ["IGF-I (Somatomedin C)", "IGF-II", "MSA", "Relaxin"],
+    options: ["IGF-I", "IGF-II", "MSA", "Relaxin"],
     correct: 0
   },
   {
@@ -199,7 +199,7 @@
   },
   {
     q: "The metabolic effect of GH on protein is:",
-    options: ["Catabolic", "Anabolic (Positive Nitrogen Balance)", "Neutral", "Increases urea excretion"],
+    options: ["Catabolic", "Anabolic", "Neutral", "Increases urea excretion"],
     correct: 1
   },
   {
@@ -214,7 +214,7 @@
   },
   {
     q: "Which substrate increase stimulates GH secretion?",
-    options: ["Glucose", "Free Fatty Acids", "Amino acids (e.g., Arginine)", "Cortisol"],
+    options: ["Glucose", "Free Fatty Acids", "Amino acids", "Cortisol"],
     correct: 2
   },
   {
@@ -259,7 +259,7 @@
   },
   {
     q: "Gigantism occurs due to excess GH:",
-    options: ["In adults", "Before epiphyseal closure (in children)", "Due to steroid use", "In old age"],
+    options: ["In adults", "Before epiphyseal closure", "Due to steroid use", "In old age"],
     correct: 1
   },
   {
@@ -396,7 +396,7 @@
   },
   {
     q: "A drug used to treat Central DI is:",
-    options: ["Tolvaptan", "Desmopressin (DDAVP)", "Demeclocycline", "Spironolactone"],
+    options: ["Tolvaptan", "Desmopressin", "Demeclocycline", "Spironolactone"],
     correct: 1
   },
 
@@ -408,7 +408,7 @@
   },
   {
     q: "The functional unit of the thyroid gland is the:",
-    options: ["Lobule", "Acinus (Follicle)", "Parafollicular cell", "C-cell"],
+    options: ["Lobule", "Acinus", "Parafollicular cell", "C-cell"],
     correct: 1
   },
   {
@@ -433,7 +433,7 @@
   },
   {
     q: "The thyroid concentrates iodide against a gradient via the:",
-    options: ["Na+-K+ ATPase", "Na+-I- Symporter (NIS)", "Pendrin", "Hydrogen pump"],
+    options: ["Na+-K+ ATPase", "Na+-I- Symporter", "Pendrin", "Hydrogen pump"],
     correct: 1
   },
   {
@@ -443,7 +443,7 @@
   },
   {
     q: "Oxidation of iodide to iodine is catalyzed by:",
-    options: ["Deiodinase", "Thyroid Peroxidase (TPO)", "Protease", "Tyrosinase"],
+    options: ["Deiodinase", "Thyroid Peroxidase", "Protease", "Tyrosinase"],
     correct: 1
   },
   {
@@ -490,7 +490,7 @@
   },
   {
     q: "The major binding protein for T4 is:",
-    options: ["Albumin", "Thyroxine-Binding Globulin (TBG)", "Transthyretin", "Prealbumin"],
+    options: ["Albumin", "Thyroxine-Binding Globulin", "Transthyretin", "Prealbumin"],
     correct: 1
   },
   {
@@ -535,7 +535,7 @@
   },
   {
     q: "Thyroid receptors bind to DNA as a heterodimer with:",
-    options: ["Glucocorticoid receptor", "Retinoid X Receptor (RXR)", "Insulin receptor", "Estrogen receptor"],
+    options: ["Glucocorticoid receptor", "Retinoid X Receptor", "Insulin receptor", "Estrogen receptor"],
     correct: 1
   },
   {
@@ -555,7 +555,7 @@
   },
   {
     q: "In Hypothyroidism, carotene accumulation leads to:",
-    options: ["Night blindness", "Yellow tint of skin (Carotenaemia)", "Scleral icterus", "Dermatitis"],
+    options: ["Night blindness", "Yellow tint of skin", "Scleral icterus", "Dermatitis"],
     correct: 1
   },
   {
@@ -565,7 +565,7 @@
   },
   {
     q: "Thyroid hormones increase the expression of cardiac:",
-    options: ["Beta-myosin heavy chain", "Alpha-myosin heavy chain (alpha-MHC)", "Muscarinic receptors", "Sodium-Calcium exchanger"],
+    options: ["Beta-myosin heavy chain", "Alpha-myosin heavy chain", "Muscarinic receptors", "Sodium-Calcium exchanger"],
     correct: 1
   },
   {
@@ -575,12 +575,12 @@
   },
   {
     q: "TSH secretion is stimulated by:",
-    options: ["T3 and T4", "TRH (Thyrotropin Releasing Hormone)", "Somatostatin", "Dopamine"],
+    options: ["T3 and T4", "TRH", "Somatostatin", "Dopamine"],
     correct: 1
   },
   {
     q: "TSH secretion is inhibited by:",
-    options: ["Low T3/T4", "TRH", "High levels of T3 and T4 (Negative feedback)", "Cold exposure"],
+    options: ["Low T3/T4", "TRH", "High levels of T3 and T4", "Cold exposure"],
     correct: 2
   },
   {
@@ -597,7 +597,7 @@
   },
   {
     q: "Graves disease is caused by:",
-    options: ["Iodine deficiency", "Thyroid Stimulating Antibodies (TSA/LATS)", "Bacterial infection", "TPO mutation"],
+    options: ["Iodine deficiency", "Thyroid Stimulating Antibodies", "Bacterial infection", "TPO mutation"],
     correct: 1
   },
   {
@@ -627,7 +627,7 @@
   },
   {
     q: "A characteristic sign of hypothyroidism in reflexes is:",
-    options: ["Hyperreflexia", "Delayed relaxation (Woltman sign)", "Clonus", "Absent reflexes"],
+    options: ["Hyperreflexia", "Delayed relaxation", "Clonus", "Absent reflexes"],
     correct: 1
   },
   {
@@ -682,12 +682,12 @@
   },
   {
     q: "In Hyperthyroidism, RAIU is:",
-    options: ["< 20%", "Normal", "Increased (e.g., 60%)", "Zero"],
+    options: ["< 20%", "Normal", "Increased", "Zero"],
     correct: 2
   },
   {
     q: "Euthyroid Sick Syndrome is characterized by:",
-    options: ["Elevated T3", "Elevated Reverse T3 (rT3)", "High TSH", "Goiter"],
+    options: ["Elevated T3", "Elevated Reverse T3", "High TSH", "Goiter"],
     correct: 1
   },
   {
@@ -697,24 +697,24 @@
   },
   {
     q: "Thyroid storm is treated with:",
-    options: ["Beta-blockers (Propranolol)", "Thyroxine", "Calcium", "TSH"],
+    options: ["Beta-blockers", "Thyroxine", "Calcium", "TSH"],
     correct: 0
   },
   {
     q: "In Hashimoto's thyroiditis, antibodies are typically against:",
-    options: ["TSH receptor (stimulating)", "Thyroglobulin and Thyroid Peroxidase", "Iodine transporter", "Calcitonin"],
+    options: ["TSH receptor", "Thyroglobulin and Thyroid Peroxidase", "Iodine transporter", "Calcitonin"],
     correct: 1
   },
   {
     q: "Pendred syndrome involves a defect in:",
-    options: ["TPO", "Pendrin (Chloride-Iodide transporter)", "Thyroglobulin", "Deiodinase"],
+    options: ["TPO", "Pendrin", "Thyroglobulin", "Deiodinase"],
     correct: 1
   },
 
   // Section 7: Clinical Cases & Miscellaneous
   {
     q: "A 40-year-old female with weight gain, cold intolerance, and non-pitting edema likely has:",
-    options: ["Graves disease", "Myxoedema (Hypothyroidism)", "Cushing's syndrome", "Pheochromocytoma"],
+    options: ["Graves disease", "Myxoedema", "Cushing's syndrome", "Pheochromocytoma"],
     correct: 1
   },
   {
@@ -734,7 +734,7 @@
   },
   {
     q: "If urine osmolality increases after vasopressin injection during a water deprivation test, the diagnosis is:",
-    options: ["Nephrogenic DI", "Cranial (Central) DI", "Primary Polydipsia", "Normal"],
+    options: ["Nephrogenic DI", "Cranial DI", "Primary Polydipsia", "Normal"],
     correct: 1
   },
   {
